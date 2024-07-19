@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Cross Over",
@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-ao">
-      <body className={inter.className}>{children}</body>
+      <head>
+      </head>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
