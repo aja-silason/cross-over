@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "./component/common/header";
+import HeaderSection from "./component/headersection";
 
 export default function Home() {
   return (
-    <span className="flex text-[20pt]">
-      Pagina do website da cross-over
+    <span>
+      <HeaderSection/>
     </span>
-    
   );
 }
