@@ -1,5 +1,5 @@
 import Header from "../common/header"
-import Container from "../common/layout"
+import Container from "../common/container"
 
 const HeaderSection = () => {
     return (
