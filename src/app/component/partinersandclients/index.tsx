@@ -21,18 +21,13 @@ const PartinerAndClients = () => {
     };
 
     return (
-        <span className="flex flex-col w-full gap-[1em] md:my-[2em]">
+        <span className="flex flex-col w-full gap-[1em] md:my-[1em] items-center">
             <span className="flex flex-col items-center">
                 <Image src={camgif} alt="cam gif" width={48} height={48}/>
                 <p className="font-[600] tex-[24px]">Empresas que confiam em nós</p>
             </span>
             <Container customClass="flex justify-between items-center overflow">
-                <Image src="/sonagaslogo.svg" alt="sonagas logotipo" width={10} height={10} className="w-[8em]"/>
-                <Image src="/mstelecomlogo.svg" alt="mstelecom logotipo" width={10} height={10} className="w-[8em]"/>
-                <Image src="/sonairlogo.svg" alt="sanair logotipo" width={10} height={10} className="w-[6em]"/>
-                <Image src="/ispteclogo.svg" alt="isptec logotipo" width={10} height={10} className="w-[8em]"/>
-                <Image src="/sonangollogo.svg" alt="sonangol logotipo" width={10} height={10} className="w-[8em]"/>
-                <Image src="/sonangollogisticalogo.svg" alt="sonangol logistica logotipo" width={10} height={10} className="w-[8em]"/>
+                <Image src="/image/axis_logo.svg" alt="sonagas logotipo" width={10} height={10} className="w-[8em]"/>
             </Container>
         </span>
     )

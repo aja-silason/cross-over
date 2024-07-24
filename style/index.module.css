@@ -1,4 +1,9 @@
     .background {
-        background: url('../image/back.png') no-repeat;
+        background: url('/image/back.png') no-repeat;
         background-size: cover;        
+    }
+
+    .back {
+        background: url('/image/vector.svg') no-repeat;
+        background-size: cover; 
     }
