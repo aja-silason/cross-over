@@ -19,9 +19,9 @@ const About = () => {
                 </span>
             </span>
             <span className="flex justify-between gap-[2em]">
-                {/* <Card text="Levar a tecnologia e segurança cada vez mais próximo do cliente"/>
-                <Card/>
-                <Card/> */}
+                <Card title="Visão" text="Levar a tecnologia e segurança cada vez mais próximo do cliente"/>
+                <Card title="Missão" text="Ser referência no mercado Nacional em soluções inovadoras a nível do sistema integrado de segurança."/>
+                <Card title="Valores" text="Confiança, Integrada e respeito, foco no resultado, Valorização"/>
             </span>
         </Container>
     )

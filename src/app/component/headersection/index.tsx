@@ -1,9 +1,11 @@
 import Header from "../common/header"
 import Container from "../common/container"
+import Style from "../../../../public/style/index.module.css";
 
 const HeaderSection = () => {
     return (
-        <Container customClass="md:h-[100vh]">
+        <div className={Style.background}>
+        <Container customClass="md:h-[100vh] background">
             <span className="flex flex-col md:h-[98vh]">
                 <Header/>
                 <span className="flex flex-col text-center justify-center items-center md:h-full">
@@ -14,6 +16,7 @@ const HeaderSection = () => {
                 </span>
             </span>
         </Container>
+        </div>
     )
 }
 
