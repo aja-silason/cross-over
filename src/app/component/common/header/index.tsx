@@ -12,7 +12,7 @@ const Header = () => {
                 <span>
                     <Image src={logotipo} className="md:w-[202px] md:h-[68px]" alt="logotipoCrossOver"/>
                 </span>
-                <span className="flex justify-between gap-[2em] text-[14px] font-[500]">
+                <span className="flex justify-between gap-[2em] text-[14px] font-[500] text-white">
                     <Link href="#about" className="hover:text-[#1E90CE] h-6">Sobre Nós</Link>
                     <Link href="#service" className="hover:text-[#1E90CE] h-6">Serviços</Link>
                     <Link href="#product" className="hover:text-[#1E90CE] h-6">Produtos</Link>

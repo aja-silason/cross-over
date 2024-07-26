@@ -1,6 +1,7 @@
 import ServiceCard from "../cards/servicescard";
 import Container from "../common/container";
 import style from "../../../../style/index.module.css";
+import OtherCard from "../cards/Otherservices";
 
 const Service = () => {
     return (
@@ -27,7 +28,20 @@ const Service = () => {
                     <p>Porque somos uma empresa comprometida com a inovação inteligente e segura para os clientes. A nossa parceira com empresas lideres no mercado internacional como à Axis Comunication, empresa líder da indústria em vigilância por vídeo, que desenvolve e fornece soluções de rede inovadoras que melhoram a segurança e o desempenho empresarial. A CroosOver, oferece soluções de rede em vigilância por vídeo, controle de acesso, controlo anti-intrusão, Incêndio. Eles são aprimorados por aplicativos de análise inteligente e apoiados por treinamento de alta excelência na solução de vigilância por vídeo, controle de acesso, interfone, e sistemas de áudio.</p>
                 </span>
                 
-                <span className="w-[100%] border h-[60vh] rounded-[.5em]">Video</span>
+                <span className="w-[100%] border h-[60vh] rounded-[.5em] md:mb-[10em]">Video</span>
+
+                <span className="flex flex-col gap-[2em]">
+                    <span className="flex flex-col items-center gap-[1em] text-center">
+                        <p className="bg-[#2097DB] text-white md:p-[.2em] rounded-[5px] text-[10pt]">Descubra soluções inteligentes</p>
+                        <h1 className="font-[700] text-[20pt] md:w-[70%]">Projecta e expanda seu negócio com soluções de segurança de ponta</h1>
+                    </span>
+                    <span className="flex gap-[2em] md:mb-[10em]">
+                        <OtherCard title="Controlo de Acesso" text="Controle de acesso flexível - mais do que apenas aberto" background="1"/>
+                        <OtherCard title="Controlo de Acesso" text="Controle de acesso flexível - mais do que apenas aberto" background="3"/>
+                        <OtherCard title="Controlo de Acesso" text="Controle de acesso flexível - mais do que apenas aberto" background="4"/>
+                        <OtherCard title="Controlo de Acesso" text="Controle de acesso flexível - mais do que apenas aberto" background="2"/>
+                    </span>
+                </span>
 
             </span>
         </Container>
