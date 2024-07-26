@@ -5,7 +5,7 @@ import Style from "../../../../style/index.module.css";
 const HeaderSection = () => {
     return (
         <div className="">
-        <Container customClass={`md:h-[100vh] background ${Style.background}`}>
+        <Container customClass={`md:h-[100vh] background ${Style.background} bg-[#000]`}>
             <span className="flex flex-col md:h-[98vh]">
                 <Header/>
                 <span className="flex flex-col text-center justify-center items-center md:h-full">

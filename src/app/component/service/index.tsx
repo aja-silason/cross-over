@@ -2,6 +2,7 @@ import ServiceCard from "../cards/servicescard";
 import Container from "../common/container";
 import style from "../../../../style/index.module.css";
 import OtherCard from "../cards/Otherservices";
+import Image from "next/image";
 
 const Service = () => {
     return (
@@ -28,7 +29,21 @@ const Service = () => {
                     <p>Porque somos uma empresa comprometida com a inovação inteligente e segura para os clientes. A nossa parceira com empresas lideres no mercado internacional como à Axis Comunication, empresa líder da indústria em vigilância por vídeo, que desenvolve e fornece soluções de rede inovadoras que melhoram a segurança e o desempenho empresarial. A CroosOver, oferece soluções de rede em vigilância por vídeo, controle de acesso, controlo anti-intrusão, Incêndio. Eles são aprimorados por aplicativos de análise inteligente e apoiados por treinamento de alta excelência na solução de vigilância por vídeo, controle de acesso, interfone, e sistemas de áudio.</p>
                 </span>
                 
-                <span className="w-[100%] border h-[60vh] rounded-[.5em] md:mb-[10em]">Video</span>
+                {/* <span className="w-[100%] border h-[60vh] rounded-[.5em] md:mb-[10em]">Video</span> */}
+
+                <span className="flex flex-col items-start">
+                <span className="flex justify-end p-[.6em] absolute">
+                    <span className="flex border border-[#8080806c] rounded-[5px] items-center gap-[.5em] md:px-[.5em] md:py-[.2em] bg-[#ffffff25]">
+                        <p className="font-[500] text-white">CrossOver</p>
+                        <Image src="image/iconCross_over.svg" width={45} height={45} className="md:w-[30px] md:h-[30px]" alt="mission logotipo"/>
+                        </span>
+                    </span>
+
+                    <video width="1220" height="80" controls autoPlay>
+                        <source src="video/videocrossover.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </span>
 
                 <span className="flex flex-col gap-[2em]">
                     <span className="flex flex-col items-center gap-[1em] text-center">

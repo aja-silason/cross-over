@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Container from "../common/container";
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -39,16 +40,9 @@ const Footer = () => {
                 </span>
                 <span className="flex gap-[4em]">
                     <span className="text-[10pt] font-[300]">
-                        <p>Plans & Pricing</p>
-                        <p>Features</p>
-                        <p>News & Blogs</p>
-                        <p>Carrers</p>
-                    </span>
-                    <span className="text-[10pt] font-[300]">
-                        <p>About Us</p>
-                        <p>Documentation</p>
-                        <p>Papers</p>
-                        <p>Press Conferences</p>
+                        <p className="hover:text-[#1E90CE] cursor-pointer">Sobre nós</p>
+                        <p className="hover:text-[#1E90CE] cursor-pointer">Nossos serviços</p>
+                        <Link href="#about">About</Link>
                     </span>
                 </span>
             </span>
@@ -61,10 +55,8 @@ const Footer = () => {
                 </span>
                 <span>
                     <span className="flex gap-[1em] text-[10pt] font-[300]">
-                        <p>About Us</p>
-                        <p>Documentation</p>
-                        <p>Papers</p>
-                        <p>Press Conferences</p>
+                        <p>Termos de Serviços</p>
+                        <p>Puliticas de privacidade</p>
                     </span>
                 </span>
             </span>

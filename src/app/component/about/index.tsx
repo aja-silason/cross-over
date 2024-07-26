@@ -4,7 +4,7 @@ import Card from "../cards";
 
 const About = () => {
     return (
-        <Container customClass="md:py-[4em] md:px-[] flex flex-col md:gap-[1em] bg-[#1D87C5] text-white md:h-[100%]">
+        <Container customClass="md:py-[4em] md:px-[] flex flex-col md:gap-[1em] bg-[#1D87C5] text-white md:h-[100%]" id="about">
             <span className="flex">
                 <span className="w-[40%]">
                     <h1 className="text-[30px] w-[40%] font-[700]">Sobre a Cross Over</h1>
@@ -14,11 +14,11 @@ const About = () => {
                     <span>Nosso diferencial está no uso de materiais de alta qualidade e na constante busca por tecnologias inovadoras, proporcionando um valor agregado incomparável aos sistemas de segurança. Estamos aqui para atender às suas necessidades de segurança com excelência. Entre em contato conosco e descubra como podemos proteger o que é mais importante para você.</span>
                 </span>
             </span>
-            <span className="flex flex-col items-center">
+            <span className="flex flex-col items-start">
                 <span className="flex justify-end p-[.6em] absolute">
                     <span className="flex border border-[#8080806c] rounded-[5px] items-center gap-[.5em] md:px-[.5em] md:py-[.2em] bg-[#ffffff25]">
                         <p className="font-[500]">CrossOver</p>
-                        <Image src="iconCross_over.svg" width={45} height={45} className="md:w-[30px] md:h-[30px]" alt="mission logotipo"/>
+                        <Image src="image/iconCross_over.svg" width={45} height={45} className="md:w-[30px] md:h-[30px]" alt="mission logotipo"/>
                     </span>
                 </span>
                 <Image src="/image/imageIlustrator.svg" width={1250} height={100} className="s" alt="illustrator_image"/>
