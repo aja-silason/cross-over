@@ -3,6 +3,7 @@ import Container from "../common/container";
 import style from "../../../../style/index.module.css";
 import OtherCard from "../cards/Otherservices";
 import Image from "next/image";
+import Video from "../video_component";
 
 const Service = () => {
     return (
@@ -32,17 +33,16 @@ const Service = () => {
                 {/* <span className="w-[100%] border h-[60vh] rounded-[.5em] md:mb-[10em]">Video</span> */}
 
                 <span className="flex flex-col items-start">
-                <span className="flex justify-end p-[.6em] absolute">
-                    <span className="flex border border-[#8080806c] rounded-[5px] items-center gap-[.5em] md:px-[.5em] md:py-[.2em] bg-[#ffffff25]">
-                        <p className="font-[500] text-white">CrossOver</p>
-                        <Image src="image/iconCross_over.svg" width={45} height={45} className="md:w-[30px] md:h-[30px]" alt="mission logotipo"/>
+                    <span className="flex justify-end p-[.6em] absolute">
+                        <span className="flex border border-[#8080806c] rounded-[5px] items-center gap-[.5em] md:px-[.5em] md:py-[.2em] bg-[#ffffff25]">
+                            <p className="font-[500] text-white">CrossOver</p>
+                            <Image src="image/iconCross_over.svg" width={45} height={45} className="md:w-[30px] md:h-[30px]" alt="mission logotipo"/>
                         </span>
                     </span>
 
-                    <video width="1220" height="80" controls autoPlay>
-                        <source src="video/videocrossover.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <span className="">
+                        <Video url="video/videocrossover.mp4" width="1220" height="60"/>
+                    </span>
                 </span>
 
                 <span className="flex flex-col gap-[2em]">
